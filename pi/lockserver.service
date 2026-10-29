@@ -7,7 +7,7 @@ Wants=network-online.target
 Type=simple
 User=asus
 WorkingDirectory=/home/asus/pi
-ExecStart=/usr/bin/python3 /home/asus/pi/detector.py --camera 0 --port 5000 --hold 5
+ExecStart=/usr/bin/python3 /home/asus/pi/detector.py --camera 0 --port 5000 --hold 5 --serial /dev/ttyUSB0
 Restart=always
 RestartSec=3
 
