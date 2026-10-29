@@ -1,0 +1,18 @@
+shell valid=True solids=1 volume=124513.0
+lid valid=True solids=1
+clash checks:
+  clash Pi board vs shell                  volume=0.000 OK
+  clash KL720 vs shell                     volume=0.000 OK
+  clash RS485 vs shell                     volume=0.000 OK
+  clash buck vs shell                      volume=0.000 OK
+  clash KL720 vs Pi board                  volume=0.000 OK
+  clash RS485 vs Pi board                  volume=0.000 OK
+  clash buck vs Pi board                   volume=0.000 OK
+  clash KL720 vs RS485                     volume=0.000 OK
+  clash buck vs KL720                      volume=0.000 OK
+  clash buck vs RS485                      volume=0.000 OK
+  clash jack body vs buck                  volume=0.000 OK
+ALL CLEAR
+exported pi_box_shell bbox=BoundBox (-81, -60, 0, 75, 60, 55)
+exported pi_box_lid bbox=BoundBox (-75, -60, 55, 75, 60, 57.4)
+DONE

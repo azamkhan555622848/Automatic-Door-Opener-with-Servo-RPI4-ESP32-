@@ -1,0 +1,8 @@
+{
+  "board": {
+    "filename": "door-lock.kicad_pcb"
+  },
+  "sheets": [
+    ["root", "door-lock.kicad_sch"]
+  ]
+}

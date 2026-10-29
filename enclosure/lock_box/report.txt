@@ -1,0 +1,27 @@
+shell valid=True solids=1 volume=115726.6
+lid valid=True solids=1
+coupler valid=True solids=1
+fit checks:
+  clash servo body vs shell          volume=0.000 OK
+  clash tab A vs shell               volume=0.000 OK
+  clash tab B vs shell               volume=0.000 OK
+  clash servo body vs cheek A        volume=0.000 OK
+  clash servo body vs cheek B        volume=0.000 OK
+  clash coupler vs cheek A           volume=0.000 OK
+  clash coupler vs cheek B           volume=0.000 OK
+  clash buck_5A (65x47x25) vs shell  volume=0.000 OK
+  clash buck_5A (65x47x25) vs servo  volume=0.000 OK
+  clash buck_5A (65x47x25) vs coupler volume=0.000 OK
+  clash ESP32_DevKit (55x28x20) vs shell volume=0.000 OK
+  clash ESP32_DevKit (55x28x20) vs servo volume=0.000 OK
+  clash ESP32_DevKit (55x28x20) vs coupler volume=0.000 OK
+  clash MAX485 (44x14x10) vs shell   volume=0.000 OK
+  clash MAX485 (44x14x10) vs servo   volume=0.000 OK
+  clash MAX485 (44x14x10) vs coupler volume=0.000 OK
+  clash buck_5A (65x47x25) vs MAX485 volume=0.000 OK
+  clash buck_5A (65x47x25) vs ESP32  volume=0.000 OK
+ALL CLEAR
+exported lock_box_shell bbox=BoundBox (-75, -45, 0, 75, 45, 60)
+exported lock_box_lid bbox=BoundBox (-75, -45, 60, 75, 45, 62.4)
+exported lock_box_coupler bbox=BoundBox (-9.5, -9.5, 4, 9.5, 9.5, 16)
+DONE

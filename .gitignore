@@ -1,0 +1,29 @@
+# ---- PlatformIO build artifacts ----
+.pio/
+**/.pio/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- Raspberry Pi OS image (525 MB, download separately) ----
+rpi-image/
+*.img
+*.img.xz
+
+# ---- Secrets (Wi-Fi credentials live here, never commit) ----
+secrets.h
+**/secrets.h
+!**/secrets.example.h
+
+# ---- Personal captures ----
+pi/faces/
+pi/snap*.jpg
+*.FCStd1
+
+# ---- OS cruft ----
+Thumbs.db
+desktop.ini
+.DS_Store

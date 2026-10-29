@@ -1,0 +1,11 @@
+cradle valid=True solids=2
+pi shell bbox=BoundBox (-81, -60, 0, 75, 60, 55)
+cradle bbox=BoundBox (-33, 60, 6, 33, 118, 85)
+cradle vs pi shell overlap=0.000 OK
+boss ring x=-20: material=73.51 mm3 (expect >0); bore clear=0.000 (expect 0)
+  base hole path check done
+boss ring x=+20: material=73.51 mm3 (expect >0); bore clear=0.000 (expect 0)
+  base hole path check done
+camera vs pi shell overlap=0.000
+camera z range=44.0..84.0 (box top 55)
+DONE

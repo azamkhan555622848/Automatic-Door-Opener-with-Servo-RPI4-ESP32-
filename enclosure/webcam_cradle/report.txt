@@ -1,0 +1,11 @@
+base valid=True solids=1 volume=8423.4
+saddle valid=True solids=1 volume=24934.3
+clash checks:
+  clash camera vs saddle                   volume=0.000 OK
+  clash saddle vs base                     volume=0.000 OK
+  clash camera vs base                     volume=0.000 OK
+  clash camera vs base knuckle zone        volume=0.000 OK
+ALL CLEAR
+exported webcam_base bbox=BoundBox (-30, 0, 0, 30, 14, 49)
+exported webcam_saddle bbox=BoundBox (-33, 4, 36, 33, 58, 79)
+DONE

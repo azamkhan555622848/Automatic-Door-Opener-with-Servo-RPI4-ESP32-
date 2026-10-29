@@ -1,0 +1,21 @@
+  fillet ok (vertical 6.0, top 0.0)
+base valid=True solids=1 volume=106888.5
+  fillet ok (vertical 6.0, top 3.0)
+cover valid=True solids=1 volume=91731.5
+clash checks:
+  clash board vs base                      volume=0.000 OK
+  clash heatsink vs cover                  volume=0.000 OK
+  clash heatsink vs base walls             volume=0.000 OK
+  clash heatsink vs board holes            volume=0.000 OK
+  clash RS485 vs base                      volume=0.000 OK
+  clash RS485 vs board                     volume=0.000 OK
+  clash buck vs base                       volume=0.000 OK
+  clash buck vs board                      volume=0.000 OK
+  clash buck vs heatsink                   volume=0.000 OK
+  clash RS485 vs buck                      volume=0.000 OK
+  clash USB-A #1 vs base wall              volume=0.000 OK
+ALL CLEAR
+NOTE: fan body sits on top of cover (exterior); thermal path not simulated.
+exported jetson_base bbox=BoundBox (-101, -50, 0, 95, 50, 40)
+exported jetson_cover bbox=BoundBox (-95, -50, 40, 95, 50, 70)
+DONE
